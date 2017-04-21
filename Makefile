@@ -16,15 +16,15 @@ BIN = ./bin
 vpath %.h ./include
 vpath %.c ./src
 
-EXECS = gshell
+EXECS = yashShell
 
 all: $(EXECS)
 
 $(OBJ)/wrappers.o: wrappers.c
 	$(CC) -c $(CFLAGS) $(SRC)/wrappers.c -o $(OBJ)/wrappers.o
 
-gshell: $(SRC)/gshell.c $(OBJ)/wrappers.o
-	$(CC) $(CFLAGS) $(LFLAGS) $(SRC)/gshell.c $(OBJ)/wrappers.o -o $(BIN)/gshell
+yashShell: $(SRC)/yashShell.c $(OBJ)/wrappers.o
+	$(CC) $(CFLAGS) $(LFLAGS) $(SRC)/yashShell.c $(OBJ)/wrappers.o -o $(BIN)/yashShell
 
 .PHONY: clean
 clean:
