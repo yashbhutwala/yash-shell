@@ -1,0 +1,15 @@
+/*
+ * Yash Bhutwala
+ * CS 315 Lab 12
+ * 12/6/2015
+ */
+
+Problem 1:
+	Completed with Xiaoying Pu, and Matt Tower. Works to specification: I used my own 4 features.
+
+Problem 2:
+	Works to specification.
+	Example: 
+	ps -ef | grep root
+	ps -ef | less
+	
