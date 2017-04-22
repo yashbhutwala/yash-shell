@@ -1,4 +1,4 @@
---------------------------------------------------------------------------------
+* * *
 
 # Yash's Shell
 
@@ -14,10 +14,16 @@ To compile and run:
 
 In addition to typical shell commands, features include:
 
-`>> history` : Prints the previous HIST_LEN number of commands
+-   When the user presses the “enter” key twice in a row, the shell displays the list of files in the current working directory.
 
-`>> exit` : Exits the terminal
+-   `>> touch hello.c; touch hello2.c; rm -rf hello.c`: Reads multiple commands separated by a semicolon character.
 
-`>> time` : Prints the current date and time in an human readable form
+-   `>> history` : Prints the previous HIST_LEN number of commands.
 
-`>> cd` : Changes the directory
+-   `>> time` : Prints the current date and time in an human readable form.
+
+-   `>> cd` : Changes the directory.
+
+-   `>> ps -ef | grep root`: Piping.
+
+-   `>> exit` : Exits the yashShell.

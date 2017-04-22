@@ -14,7 +14,7 @@ int main(int argc, const char *argv[]) {
     fflush(stdout);
     char *cmd = calloc(CMD_LEN, sizeof(char));
     cmd = fgets(cmd, CMD_LEN, stdin);
-    char dest[3] = "";
+    char dest[3];
     strncpy(dest, cmd, 2);
     dest[2] = '\0';
 
