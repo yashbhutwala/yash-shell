@@ -4,7 +4,7 @@
 
 This is a basic, lightweight implementation of a UNIX shell.
 
-To compile and run:
+To compile and run the shell, first make sure to create `./bin` and `./obj` directories and then run:
 
 ```bash
 >> make clean
